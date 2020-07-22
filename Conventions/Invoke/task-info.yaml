@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 123
-    length: 6
+  - offset: 115
+    length: 49
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -14,8 +14,8 @@ files:
     possible_answer: |-
       numberOfInvocations++
               return this
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     class Invokable {
         var numberOfInvocations: Int = 0
@@ -52,5 +52,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 22 Jul 2020 14:48:34 UTC
 record: -1
