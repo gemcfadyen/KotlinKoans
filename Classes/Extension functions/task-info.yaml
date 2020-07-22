@@ -4,26 +4,26 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 30
-    length: 6
+  - offset: 53
+    length: 0
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 30
     initialized_from_dependency: false
     possible_answer: RationalNumber(this, 1)
-    selected: false
-    status: Unchecked
-  - offset: 79
-    length: 6
+    selected: true
+    status: Solved
+  - offset: 55
+    length: 72
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 79
     initialized_from_dependency: false
     possible_answer: RationalNumber(first, second)
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun Int.r(): RationalNumber = TODO()
 
@@ -49,5 +49,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 22 Jul 2020 09:24:32 UTC
 record: -1
