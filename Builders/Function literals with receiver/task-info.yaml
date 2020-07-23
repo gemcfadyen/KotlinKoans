@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 66
-    length: 6
+    length: 3
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 66
     initialized_from_dependency: false
     possible_answer: this % 2 == 0
-    selected: false
+    selected: true
     status: Unchecked
   - offset: 112
     length: 6
@@ -22,7 +22,7 @@ files:
       offset: 112
     initialized_from_dependency: false
     possible_answer: this % 2 != 0
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     fun task(): List<Boolean> {

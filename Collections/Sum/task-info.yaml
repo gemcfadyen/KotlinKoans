@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 132
-    length: 6
+  - offset: 238
+    length: 0
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -14,7 +14,7 @@ files:
     possible_answer: customer.orders.flatMap { it.products }.sumByDouble { it.price
       }
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     // Return the sum of prices for all the products ordered by a given customer
     fun moneySpentBy(customer: Customer): Double =
@@ -130,5 +130,8 @@ files:
             Tokyo to listOf(asuka)
     ).mapValues { it.value.map { name -> customers[name] } }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 23 Jul 2020 08:30:50 UTC
 record: -1

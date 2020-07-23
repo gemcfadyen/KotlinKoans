@@ -10,6 +10,6 @@ data class Product(val name: String, val price: Double) {
     override fun toString() = "'$name' for $price"
 }
 
-data class City(val name: String) {
+class City(val name: String) {
     override fun toString() = name
 }

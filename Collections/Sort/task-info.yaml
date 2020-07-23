@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 155
-    length: 6
+  - offset: 208
+    length: 0
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -13,7 +13,7 @@ files:
     initialized_from_dependency: false
     possible_answer: customers.sortedByDescending { it.orders.size }
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     // Return a list of customers, sorted in the descending by number of orders they have made
     fun Shop.getCustomersSortedByOrders(): List<Customer> =
@@ -129,5 +129,8 @@ files:
             Tokyo to listOf(asuka)
     ).mapValues { it.value.map { name -> customers[name] } }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 22 Jul 2020 14:56:12 UTC
 record: -1
